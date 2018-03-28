@@ -1,2 +1,22 @@
-- "test"
-- "中文"
+test_search_english:
+  - "test"
+  - "hello"
+test_search_chinese:
+  - "汉子"
+  - "中文"
+  - "中文"
+
+# [{test_search_english: [test, hello], test_search_chinese: [汉子, 汉子, 汉子]}]
+
+# 之前
+# {test_search_english: [test, hello], test_search_chinese: [汉子, 汉子, 汉子]}
+
+
+#
+#-
+#  test_search_english:
+#    - 1
+#    - 2
+#    - 3
+#- 2
+#- 3
